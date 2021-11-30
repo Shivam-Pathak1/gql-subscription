@@ -1,0 +1,11 @@
+diff --git a/node_modules/apollo-server-core/dist/plugin/drainHttpServer/index.d.ts b/node_modules/apollo-server-core/dist/plugin/drainHttpServer/index.d.ts
+index d77f1c9..7ba9ed1 100644
+--- a/node_modules/apollo-server-core/dist/plugin/drainHttpServer/index.d.ts
++++ b/node_modules/apollo-server-core/dist/plugin/drainHttpServer/index.d.ts
+@@ -1,5 +1,5 @@
+ /// <reference types="node" />
+-import type http from 'http';
++import * as http from 'http';
+ import type { ApolloServerPlugin } from 'apollo-server-plugin-base';
+ export interface ApolloServerPluginDrainHttpServerOptions {
+     httpServer: http.Server;
